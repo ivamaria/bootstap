@@ -1,0 +1,167 @@
+    @font-face {
+        font-family: 'roboto';
+        src: url('../fonts/roboto-light.woff2') format('woff2'), url('../fonts/roboto-light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'roboto';
+        src: url('../fonts/roboto-regular.woff2') format('woff2'), url('../fonts/roboto-regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'roboto';
+        src: url('../fonts/roboto-medium.woff2') format('woff2'), url('../fonts/roboto-medium.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'roboto';
+        src: url('../fonts/roboto-bold.woff2') format('woff2'), url('../fonts/roboto-bold.woff') format('woff');
+        font-weight: 800;
+        font-style: normal;
+    }
+
+    html {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: 'roboto', Arial, sans-serif;
+        background-color: #fff;
+        padding: 0;
+    }
+
+    button,
+    input {
+        font: inherit;
+    }
+
+    .header {
+        background-color: #3F2AFF;
+        min-height: 80px;
+    }
+
+    .container {
+        max-width: 1140px;
+    }
+
+    .navbar-light .navbar-brand {
+        color: white;
+        font-size: 28px;
+        font-weight: 200;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 46px;
+    }
+
+    @media only screen and (max-width: 991px) {
+        .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .navbar-expand-lg .navbar-nav {
+            display: flex;
+            justify-content: center;
+        }
+        .navbar-brand {
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    @media only screen and (max-width: 681px) {
+        .navbar-brand {
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .navbar-expand-lg .navbar-nav {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 540px) {
+        .nav-item:not(:last-child) {
+            margin-right: 25px;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 18px;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 444px) {
+        .navbar-light .navbar-nav .nav-link {
+            font-size: 12px;
+        }
+        .nav-item:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .navbar-brand {
+            margin-right: auto;
+            margin-left: 0;
+        }
+        .navigation {
+            display: block;
+        }
+        .navbar-expand-lg .navbar-nav {
+            display: block
+        }
+        .navbar-toggler {
+            display: inline-block;
+        }
+    }

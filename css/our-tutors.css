@@ -1,0 +1,57 @@
+.our__tutors {
+    background-color: #212133;
+    width: 100%;
+    padding-bottom: 60px
+}
+
+.our__tutors-title {
+    color: #fff;
+}
+
+.our__tutors-title {
+    padding-top: 64px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.our__tutor__card {
+    background-color: transparent;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border: none;
+    overflow: hidden;
+}
+
+.card__row {
+    padding-top: 21px;
+}
+
+.our__tutor__card-body {
+    color: #85859B;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.our__tutor__card-title {
+    color: #fff;
+    font-size: 18px;
+    padding-top: 6px;
+}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .our__tutor__card-body {
+        padding-top: 64px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .our__tutors-title {
+        font-size: 24px;
+    }
+}
